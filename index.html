@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vesh: Shadow of Lebron</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="ui">
+    <div id="topBar">
+      <div class="bar">
+        <label>Health</label>
+        <div class="fill health"></div>
+      </div>
+
+      <div class="bar">
+        <label>Energy</label>
+        <div class="fill energy"></div>
+      </div>
+    </div>
+
+    <div id="minimap">MAP</div>
+
+    <div id="questTracker">
+      <h3>Quest</h3>
+      <p>Find the Ancient Relic in the Forest</p>
+    </div>
+
+    <div id="inventory" class="hidden">
+      <h2>Inventory</h2>
+      <ul id="inventoryList">
+        <li>Wooden Sword</li>
+        <li>Health Potion</li>
+      </ul>
+    </div>
+
+    <div id="mapMenu" class="hidden">
+      <h2>World Map</h2>
+      <p>Snow Mountains</p>
+      <p>Dark Forest</p>
+      <p>Swamp of Shadows</p>
+      <p>Desert Ruins</p>
+    </div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
